@@ -1,0 +1,17 @@
+.App {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: hsl(200, 15%, 8%);
+	background-color: hsl(0, 0%, 98%);
+	&.darkmode {
+		background-color: hsl(207, 26%, 17%);
+		color: white;
+		.navbar {
+			background-color: hsl(207, 26%, 17%);
+		}
+
+	}
+}
