@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './CountryDetailCard.scss'
 const CountryDetailCard = ({data, onChange}) => {
   return (
     <li className='countryDetailCard'>
